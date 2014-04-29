@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="PromotionalCodesTestWin81.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PromotionalCodesTestWin81"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Validate" HorizontalAlignment="Left" Margin="87,164,0,0" VerticalAlignment="Top" Width="221" Click="Button_Click"/>
+        <Button Content="Redeem" HorizontalAlignment="Left" Margin="87,219,0,0" VerticalAlignment="Top" Width="221" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,67,0,0" TextWrapping="Wrap" Text="Enter Promotioncode" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPromoCode" HorizontalAlignment="Left" Margin="87,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,284,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbStatus" HorizontalAlignment="Left" Margin="87,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="93"/>
+    </Grid>
+</Page>
