@@ -14,7 +14,7 @@ The sample includes one sample for each platform and one MVC5 sample (using the 
 
 To test this samples you need to aquire a valid API-Key and API-Secret. You can sig-up for AppAdditives here:
 
-[AppAdditves](https://http://www.appadditives.com "AppAdditives Home")
+[AppAdditves](http://www.appadditives.com "AppAdditives Home")
 
 Copyright (c) 2014 ExGrip LLC & Ilija Injac
 
