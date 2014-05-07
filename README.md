@@ -12,6 +12,10 @@ This samples demonstrate how to use AppAdditive Promotional codes on various pla
 
 The sample includes one sample for each platform and one MVC5 sample (using the DOTNET 4.5.1 version) on how to integrate AppAdditives-PromotionalCodes with WPF.
 
+You can download the NuGet-Package here:
+
+[ExGrip.PromotionalCodes](http://www.nuget.org/packages/ExGrip.PromotionalCodes/ "ExGrip Promotional-Codes on NuGet")
+
 To test this samples you need to aquire a valid API-Key and API-Secret. You can sig-up for AppAdditives here:
 
 [AppAdditves](http://www.appadditives.com "AppAdditives Home")
