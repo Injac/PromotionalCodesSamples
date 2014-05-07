@@ -10,7 +10,8 @@
             <label for="promocode">Please enter your promotional code</label><br/>
             <input type="text" id="promocode" />
         </div>
-        <Button class="btn btn-success" id="redeemcode">Redeem your code</Button><br/>
+        <Button class="btn btn-success" id="redeemcode">Redeem your code</Button>&nbsp;
+        <button class="btn btn-success" id="multistats">Check multi-code stats</button><br />
         <div id="result" style="font-size:28px;font-weight:bolder;margin-top:20px;">
 
         </div>
@@ -22,11 +23,21 @@
 
         $('#redeemcode').click(function () {
 
-            $.get("home/RedeemPromocode", { promoCode: $('#promocode').val() }, function (data) {
+            $.get("/home/RedeemPromocode", { promoCode: $('#promocode').val() }, function (data) {
 
                 $("#result").text(JSON.stringify(data));
 
             });
         });
+
+        $('#multistats').click(function () {
+
+            $.get("/home/GetPromocodeStats", { promoCode: $('#promocode').val() }, function (data) {
+
+                $("#result").text(JSON.stringify(data));
+
+            });
+        });
+
     });
 </script>

@@ -69,5 +69,28 @@ namespace PromotionalCodesTestWPF
             }
 
         }
+
+        private async void btnRedeemCode_Copy_Click2(object sender, RoutedEventArgs e)
+        {
+
+            var apiKey = "[YOURAPIKEY]";
+            var apiSecret = "[YOURAPISECRET]";
+            var promocodeManager = new PromotionCodeManager(apiKey, apiSecret);
+
+            var stats = await promocodeManager.GetMultiCodeStats(this.tbPromoCode.Text);
+            
+            this.lbResult.Text = "";
+
+            if (stats != null)
+            {
+                this.lbResult.Text = string.Format("STATUS: {0}, REDEEM-COUNT: {1}, AVAILABLE-REDEEMS: {2}",
+                    stats.status, stats.redeemCount, stats.availableRedeems);
+            }
+            else
+            {
+                this.lbResult.Text = "Sorry promocode is not available anymore, or could not be found, or it is no multi-code. :(";
+            }
+
+        }
     }
 }

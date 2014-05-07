@@ -156,5 +156,5 @@ $RECYCLE.BIN/
 .DS_Store
 
 # NugetPackages directory
-packages/*
+packages/
 !packages/repositories.config

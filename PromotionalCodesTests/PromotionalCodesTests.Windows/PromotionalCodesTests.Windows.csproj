@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ExGrip.ExGripPromotionalCodesWin81">
-      <HintPath>..\..\packages\ExGrip.PromotionalCodes.1.0.0.4\lib\netcore451\ExGrip.ExGripPromotionalCodesWin81.dll</HintPath>
+      <HintPath>..\..\packages\ExGrip.PromotionalCodes.1.0.0.6\lib\netcore451\ExGrip.ExGripPromotionalCodesWin81.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll</HintPath>

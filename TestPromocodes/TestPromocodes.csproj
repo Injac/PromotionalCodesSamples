@@ -155,9 +155,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="ExGrip.PromotionalCodes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\ExGrip.PromotionalCodes.1.0.0.4\lib\wp8\ExGrip.PromotionalCodes.dll</HintPath>
+    <Reference Include="ExGrip.PromotionalCodes">
+      <HintPath>..\packages\ExGrip.PromotionalCodes.1.0.0.6\lib\wp8\ExGrip.PromotionalCodes.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

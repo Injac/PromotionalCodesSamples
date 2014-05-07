@@ -14,11 +14,12 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock HorizontalAlignment="Left" Margin="26,35,0,0" TextWrapping="Wrap" Text="Enter Promotioncode" VerticalAlignment="Top" Width="331"/>
-            <TextBox x:Name="txtPromocode" HorizontalAlignment="Left" Height="44" Margin="26,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261"/>
+            <TextBox x:Name="txtPromocode" HorizontalAlignment="Left" Height="44" Margin="26,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292"/>
             <Button x:Name="btnValidate" Content="Validate" HorizontalAlignment="Left" Margin="26,146,0,0" VerticalAlignment="Top" Width="294" Click="btnValidate_Click"/>
             <Button x:Name="btnRedeem" Content="Redeem" HorizontalAlignment="Left" Margin="26,209,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.681,-0.041" Width="294" Click="btnRedeem_Click"/>
-            <TextBlock x:Name="tbStatus" HorizontalAlignment="Left" Margin="24,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="93" Width="296"/>
-            <TextBlock HorizontalAlignment="Left" Margin="26,282,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbStatus" HorizontalAlignment="Left" Margin="24,399,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="93" Width="296"/>
+            <TextBlock HorizontalAlignment="Left" Margin="26,356,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top"/>
+            <Button x:Name="btnRedeem_Copy" Content="Check multi-code stats" HorizontalAlignment="Left" Margin="24,270,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.681,-0.041" Width="294" Click="Button_Click_2"/>
 
         </Grid>
     </Grid>

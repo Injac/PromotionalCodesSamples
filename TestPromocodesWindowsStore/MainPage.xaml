@@ -12,8 +12,9 @@
         <Button Content="Redeem" HorizontalAlignment="Left" Margin="87,219,0,0" VerticalAlignment="Top" Width="221" Click="Button_Click_1"/>
         <TextBlock HorizontalAlignment="Left" Margin="87,67,0,0" TextWrapping="Wrap" Text="Enter Promotioncode" VerticalAlignment="Top"/>
         <TextBox x:Name="txtPromoCode" HorizontalAlignment="Left" Margin="87,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,284,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tbStatus" HorizontalAlignment="Left" Margin="87,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="93"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,336,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbStatus" HorizontalAlignment="Left" Margin="87,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="93"/>
+        <Button Content="Get Multi-Code Stats" HorizontalAlignment="Left" Margin="84,272,0,0" VerticalAlignment="Top" Width="221" Click="Button_Click_2"/>
 
     </Grid>
 </Page>

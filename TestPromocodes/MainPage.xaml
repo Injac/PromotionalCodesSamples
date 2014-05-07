@@ -51,8 +51,9 @@
             <TextBox x:Name="txtPromocode" HorizontalAlignment="Left" Height="72" Margin="26,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="405"/>
             <Button x:Name="btnValidate" Content="Validate" HorizontalAlignment="Left" Margin="40,156,0,0" VerticalAlignment="Top" Width="379" Click="btnValidate_Click"/>
             <Button x:Name="btnRedeem" Content="Redeem" HorizontalAlignment="Left" Margin="40,233,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.681,-0.041" Width="379" Click="btnRedeem_Click"/>
-            <TextBlock x:Name="tbStatus" HorizontalAlignment="Left" Margin="56,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="93" Width="342"/>
-            <TextBlock HorizontalAlignment="Left" Margin="56,319,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top"/>
+            <TextBlock x:Name="tbStatus" HorizontalAlignment="Left" Margin="56,432,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="93" Width="342"/>
+            <TextBlock HorizontalAlignment="Left" Margin="56,390,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top"/>
+            <Button x:Name="btnRedeem_Copy" Content="Check multi-code stats" HorizontalAlignment="Left" Margin="40,305,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.681,-0.041" Width="379" Click="Button_Click_2"/>
 
         </Grid>
 

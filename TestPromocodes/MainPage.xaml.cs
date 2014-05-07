@@ -55,6 +55,24 @@ namespace TestPromocodes
             }
         }
 
+
+        private async void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            PromotionCodeManager man = new PromotionCodeManager("[YOURAPIKEY]",
+                                                             "[YOURAPISECRET]");
+            var stats = await man.GetMultiCodeStats(this.txtPromocode.Text);
+            tbStatus.Text = "";
+
+            if (stats != null)
+            {
+                tbStatus.Text = string.Format("STATUS: {0}, REDEEM-COUNT: {1}, AVAILABLE-REDEEMS: {2}",
+                    stats.status, stats.redeemCount, stats.availableRedeems);
+            }
+            else
+            {
+                tbStatus.Text = "Sorry promocode is not available anymore, or could not be found, or it is no multi-code. :(";
+            }
+        } 
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{

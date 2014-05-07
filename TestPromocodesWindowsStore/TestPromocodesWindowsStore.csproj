@@ -143,10 +143,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ExGrip.PromotionalCodes8">
-      <HintPath>..\packages\ExGrip.PromotionalCodes.1.0.0.1\lib\netcore45\ExGrip.PromotionalCodes8.dll</HintPath>
+      <HintPath>..\packages\ExGrip.PromotionalCodes.1.0.0.6\lib\netcore45\ExGrip.PromotionalCodes8.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">

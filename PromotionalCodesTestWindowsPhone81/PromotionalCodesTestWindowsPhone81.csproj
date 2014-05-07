@@ -114,7 +114,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ExGrip.PromotionalCodesUniversal">
-      <HintPath>..\packages\ExGrip.PromotionalCodes.1.0.0.4\lib\wpa81\ExGrip.PromotionalCodesUniversal.winmd</HintPath>
+      <HintPath>..\packages\ExGrip.PromotionalCodes.1.0.0.6\lib\wpa81\ExGrip.PromotionalCodesUniversal.winmd</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

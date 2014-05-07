@@ -22,7 +22,7 @@ namespace WebTest.Controllers
             return View();
         }
 
-
+        [HttpGet]
         public async Task<JsonResult> RedeemPromocode(string promoCode)
         {
             var key = System.Configuration.ConfigurationManager.AppSettings["promocodeKey"];
@@ -58,6 +58,44 @@ namespace WebTest.Controllers
 
             
         }
+
+        [HttpGet]
+        public async Task<JsonResult> GetPromocodeStats(string promoCode)
+        {
+            var key = System.Configuration.ConfigurationManager.AppSettings["promocodeKey"];
+            var secret = System.Configuration.ConfigurationManager.AppSettings["promocodeSecret"];
+
+            var promocodeManager = new PromotionCodeManager(key, secret);
+
+            var stats = await promocodeManager.GetMultiCodeStats(promoCode);
+
+
+            if (stats != null)
+            {
+                
+                    var data = new { status = stats.status, availableRedeems = stats.availableRedeems, 
+                        redeemCount = stats.redeemCount };
+
+                    return Json(data, JsonRequestBehavior.AllowGet);
+                
+
+            }
+            else
+            {
+                var data = new
+                {
+                    status = "ERROR",
+                    availableRedeems = 0,
+                    redeemCount = 0
+                };
+
+                return Json(data, JsonRequestBehavior.AllowGet);
+            }
+
+
+
+        }
+
 
         public ActionResult Contact()
         {
